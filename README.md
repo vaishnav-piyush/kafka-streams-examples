@@ -1,3 +1,4 @@
+# Useful Commands when testing these apps. 
 
 ## CONSUME KEY VALUE
 $CONFLUENT_HOME/bin/kafka-console-consumer --bootstrap-server localhost:9092 --from-beginning --formatter kafka.tools.DefaultMessageFormatter --property print.key=true --property print.value=true --topic favourite-color-output --property key.deserializer=org.apache.kafka.common.serialization.StringDeserializer --property value.deserializer=org.apache.kafka.common.serialization.StringDeserializer
